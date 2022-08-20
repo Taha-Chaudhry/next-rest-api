@@ -17,9 +17,7 @@ REST API built with Next.js using Prisma
  
 ## Usage
 
-Currently there is no Docker support for Prisma, so this project must be run natively
-
-PostgreSQL and PgAdmin however, can be run in Docker containers
+PostgreSQL and PgAdmin must be run before the project can start
 
 #### Create PostgreSQL container
 ```
@@ -41,9 +39,22 @@ Once logged in:
 
 You should see your database pop up as 'pg-database'
 
-After running the Next.js project, the table should be visible at `pg-database` > `Schmeas` > `Tables`
+Currently there is no Docker support for Prisma, so this project must be run natively
+
+#### Connct prisma to PostgreSQL
+```
+npx prisma db push
+```
+
+The table should now be visible at `pg-database` > `Schmeas` > `Tables`
 
 To see what else you can do with PgAdmin, vist the [docs](https://www.pgadmin.org/docs/pgadmin4/latest/index.html)
+#### Run the Next.js app
+```
+npm run dev
+```
+
+You can now access the api at `localhost:3000`
 ## API Reference
 
 
