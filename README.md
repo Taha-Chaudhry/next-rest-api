@@ -11,7 +11,7 @@ REST API built with Next.js using Prisma
 
 - [PostgreSQL](https://www.postgresql.org): Database
 
-- [PgAdmin](https://www.pgadmin.org): Postgres management GUI
+- [PgAdmin](https://www.pgadmin.org): Postgres GUI
 
 - [Prisma](https://www.prisma.io): Allows Next.js to communicate with PostgreSQL
  
