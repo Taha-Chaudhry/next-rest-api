@@ -33,7 +33,7 @@ Navigate to localhost:5050 and login with email `root@example.com` and password 
 
 Once logged in:
 - Click 'Add new server'
-- Name it ‘pg-database’
+- Name it `pg-database`
 - Click “Connection”
 - Put `host.docker.internal` as the host name, `5432` as the port, `postgres` as the username, and `admin` as the password
 
