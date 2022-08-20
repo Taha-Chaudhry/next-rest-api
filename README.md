@@ -71,12 +71,6 @@ GET /api/
 GET /api/reset
 ```
 
-#### Get specific user data by id
-
-```
-GET /api/users/${id}
-```
-
 #### Get all users' data
 
 ```
@@ -96,7 +90,7 @@ GET /api/deleteUser/${id}
 ```
 
 
-### POST endpoints
+### POST endpoint
 
 #### Adds user based on request body
 
@@ -110,7 +104,7 @@ POST /api/addUser
 | `email`      | `String` |
 
 
-### PUT endpoints
+### PUT endpoint
 
 #### Updates a users details by id
 
