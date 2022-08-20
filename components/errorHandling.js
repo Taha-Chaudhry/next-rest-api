@@ -20,7 +20,15 @@ const errors = [
     },
     {
         "code": 6,
+        "message": "Endpoint only has mapping for method PUT"
+    },
+    {
+        "code": 7,
         "message": "Endpoint only has mapping for method DELETE"
+    },
+    {
+        "code": 8,
+        "message": "No id specified in URL"
     }
 ]
 
