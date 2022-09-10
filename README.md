@@ -65,16 +65,14 @@ You can now access the api at `localhost:3000`
 ```
 GET /api/
 ```
+#### Or
+```
+GET /api/users/
+```
 
 #### Creates a base user and deletes all users created
 ```
 GET /api/reset
-```
-
-#### Get all users' data
-
-```
-GET /api/users/
 ```
 
 #### Get user data by id
