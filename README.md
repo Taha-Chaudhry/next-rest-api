@@ -65,7 +65,7 @@ You can now access the api at `localhost:3000`
 ```
 GET /api/
 
-// OR
+Or
 
 GET /api/users/
 ```
